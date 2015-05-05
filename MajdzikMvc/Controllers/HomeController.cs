@@ -6,11 +6,16 @@ using System.Web.Mvc;
 
 namespace MajdzikMvc.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : _Controller
     {
         public ActionResult Index()
-        {
+        {       
             return View();
+        }
+
+        private void View1()
+        {
+            throw new NotImplementedException();
         }
 
         public ActionResult About()

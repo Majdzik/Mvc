@@ -13,7 +13,7 @@ using MajdzikMvc.Models;
 namespace MajdzikMvc.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : _Controller
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
